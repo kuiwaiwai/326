@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>326的站</title>
+<link href="css/indxgo.css" rel="stylesheet" type="text/css">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#bbded6">
+	<div id="indxtitle">
+	<img src="https://wx1.vv1234.cn/2020/20201206_5e4965d59fe47.png" width="20%">
+	<p>326の站...</p>
+	</div><br>
+	<div id="meun">
+		<a href="fengyun/index.html" class="a1">326风云榜&nbsp;&nbsp;</a>
+	 	<a href="#" class="a1">326轶事&nbsp;&nbsp;</a> 
+	  	<a href="link.html" class="a1">326友情链接&nbsp;&nbsp;</a>
+	</div>
+	<br>
+	<div id="indxmain">
+		<h1>在这里你能做什么？</h1>
+		<h2>你可以浏览326的风云榜！</h2>
+		<h2>这当然也包括一些图片~</h2>
+		比如这个<img src="https://wx1.vv1234.cn/2020/20201204_c3a5d63ff8590.jpg" width="20%"><br>
+		<h2>但世上终究不存在完美的事物</h2>
+		<h2>如果你发现这个网站有什么问题，请联系我们</h2>
+		<h3>联系方式：</h3>
+		<h3>kuiwaiwai@foxmail.com</h3><br><br><br>
+		<h4>要是有时觉得烦心就看看下面的句子吧↓（刷新网页有惊喜）</h4>
+		
+		<span style="font-size: 20px;"> 
+			<p id="hitokoto">(〃'▽'〃)句子获取中</p>
+            <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+            <script>
+            fetch('https://v1.hitokoto.cn')
+            .then(function (res){
+            return res.json();
+            })
+            .then(function (data) {
+            var hitokoto = document.getElementById('hitokoto');
+            hitokoto.innerText = data.hitokoto; 
+            })
+            .catch(function (err) {
+            console.error(err);
+        })
+			</script> 
+			
+			</span>
+		
+		<audio controls autoplay="autoplay" loop="loop" hidden>
+		<source src="music/music.mp3" >
+	</audio>
+	</div>
+</body>
+</html>
