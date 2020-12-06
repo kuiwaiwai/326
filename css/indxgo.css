@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.a1{
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffb6b9;
+}
+
+.spann{
+	color: aliceblue;
+	width: 10%;
+	height: 20px;
+	padding: 5px;
+	border: 2px #51A39D solid;
+	background-color: #FF3B1D;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#indxtitle{
+	font-family: "汉仪楷体简";
+	font-size: 30px;
+	text-align: center;
+	color: #fae3d9;
+	width: 100%;
+	height: 200px;
+	line-height: 30px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-image: url(https://wx1.vv1234.cn/2020/20201205_fc85a164d4114.jpg);
+	background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+#meun{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: lighter;
+	text-align: center;
+	background-color: #dadada;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+
+#indxmain{
+	background-color: #8ac6d1;
+	text-align: center;
+	color: azure;
+	width: 100%;
+	height: 1500px;
+	line-height: 60px;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+
+#fengyunmain{
+	padding: 5px;
+	width: 100%;
+	height: 1000px;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+
+.fengyunhr{
+	color: coral;
+	height: 5px;
+
+}
